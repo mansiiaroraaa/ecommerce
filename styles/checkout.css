@@ -1,0 +1,179 @@
+.body {
+    font-family: serif;
+    font-size: 1.5em;
+    margin: 10px;
+    display: grid;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+h1 {
+    text-align: center;
+    letter-spacing: 0.5em;
+    margin: 2rem;
+    font-size: 1.3em;
+    font-family: sans-serif;
+  }
+ul {
+    margin-top: 2.5em;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(83, 78, 78);
+}
+.body {
+    font-family: serif;
+    font-size: 1.5em;
+    margin: 10px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+  }
+  
+h1 {
+    text-align: center;
+    letter-spacing: 0.5em;
+    margin: 2rem;
+    font-size: 1.3em;
+    font-family: sans-serif;
+  }
+h3 {
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+
+  }
+.cart img {
+    width: 2.5em;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-right: 4%;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.col-25 {
+-ms-flex: 25%; /* IE10 */
+flex: auto;
+}
+
+.col-50 {
+-ms-flex: 50%; /* IE10 */
+flex: 50%;
+width: 50%;
+
+}
+
+.col-75 {
+-ms-flex: 75%; /* IE10 */
+flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+padding: 0 16px;
+}
+
+.container {
+background-color: #f7f3f3;
+padding: 3px;
+border: 1px solid lightgrey;
+border-radius: 3px;
+margin-left: auto;
+margin-right: auto;
+}
+.container p{
+    display: block;
+}
+
+input[type=text] {
+width: 85%;
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+label {
+display: flex;
+}
+
+
+.proceed button {
+    padding: 5px;
+    margin: 40px;
+    height: 3em;
+    width: 10em;
+    border: 0.125em solid black;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+.proceed button:hover {
+    background-color: rgb(0, 5, 4);
+    color: rgb(252, 245, 245); 
+    box-shadow: 0 0 10px white;
+}
+
+span.price {
+float: right;
+color: grey;
+}
+span.price1 {
+    float: right;
+    color: grey;
+    }
+
+
+
+footer{
+    background-color: rgb(9, 10, 10);
+    height: auto;
+    width: auto;
+    font-family: "Open Sans";
+    color: rgb(247, 243, 243);
+    margin-top: auto;
+}
+.footer-bottom{
+    background: rgb(3, 3, 3);
+    width: auto;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align:center;
+}

@@ -1,0 +1,149 @@
+.body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    margin: 1em 0 1em 0;
+    display: grid;
+  }
+  
+h1 {
+    text-align: center;
+    letter-spacing: 0.5em;
+    margin: 2rem;
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+  }
+ul {
+    margin-top: 2.5em;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(88, 88, 88);
+}
+
+.cart img {
+    width: 2.5em;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-right: 4%;
+  }
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+.heading img{
+    padding-bottom: 1em;
+    width: auto;
+}
+.heading p{
+    font-size: 1rem;
+    padding-top: 1.2rem;
+    padding-bottom: 3em;
+}
+.items{
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.item-card{
+    justify-content: space-around;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.2);
+    transition: 0.2s;
+    max-width: 35rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+.item-card:hover{
+    transform: translateY(-5%);
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(3, 3, 3, 0.2);
+}
+.price{
+    color: grey;
+    font-size: 22px;
+}
+.item-card a img{
+    padding: 20px;
+    width: 400px;
+    height: 28em;
+  }
+  
+.item-card p{
+    text-align: center;
+    text-decoration: black;
+    font-size: 1.5em;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+  
+.item-card button {
+    top: 25rem;
+    left: 7rem;
+    height: 3em;
+    width: 10em;
+    border: 0.2em solid black;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.item-card button:hover{
+    background-color: rgb(0, 5, 4);
+    color: rgb(252, 245, 245); 
+    box-shadow: 0 0 10px rgb(146, 139, 139);
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: rgb(9, 10, 10);
+    height: auto;
+    width: auto;
+    font-family: "Open Sans";
+    color: rgb(247, 243, 243);
+}
+.footer-bottom{
+    background: rgb(3, 3, 3);
+    width: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align:center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1000px){
+    .item-card a img{
+        width: 300px;
+        height: 20em;
+    }
+    .item-card button{
+        top: 20rem;
+        left: 5rem;
+    }
+}
